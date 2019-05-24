@@ -16,7 +16,8 @@
 }
 
 body{
-  background-color: var(--bg-light-2)
+  background-color: var(--bg-light-2);
+  position: relative;
 }
 
 /* NAVBAR CUSTOM STYLE */
@@ -278,6 +279,61 @@ p{
   line-height: 1.5;
   font-size: 1.2rem;
 }
+
+/* CAREERS DESCRIPTION */
+.careers .careers__name{
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+}
+@media screen and (min-width: 991px){
+  .careers .careers__name{
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+  }
+}
+.careers .careers__description{
+  display: inline-block;
+  text-align: left;
+  width: 30%;
+  margin-bottom: 1rem;
+  color: var(--primary-color-letters);
+  text-decoration: underline;
+}
+
+/* MODALS STYLE */
+  #modal1,
+  #modal2,
+  #modal3,
+  #modal4,
+  #modal5,
+  #modal6{
+    display: none;
+  }
+  .position{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px grey;
+  }
+
+  .position p{
+    font-size: 1rem;
+  }
+  .position ol li{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+  .close{
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer
+  }
 
 /* FOOTER STYLING */
 footer a{
