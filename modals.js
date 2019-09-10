@@ -1,49 +1,35 @@
-
-
-function openMedical(){
-    document.querySelector("#modal1").style.display="block";
+var article = document.querySelectorAll(".article")
+console.log(article)
+var openTrig = document.querySelectorAll(".careers__name")
+var closeModal = document.querySelectorAll(".close")
+console.log(closeModal)
+for(i = 0; i < openTrig.length; i++){
+    openTrig[i].addEventListener("click", function(){
+        if(this.textContent === "Rehabilitation Specialist"){
+            article[0].style.display="block"
+            console.log(this.textContent)
+        } else if(this.textContent === "Clinical Supervisor"){
+            article[1].style.display="block"
+            console.log(this.textContent)
+        } else if(this.textContent === "OMHC Therapist"){
+            article[2].style.display="block"
+            console.log(this.textContent)
+        } else if(this.textContent === "Psychiatrist Medical Director"){
+            article[3].style.display="block"
+            console.log(this.textContent)
+        } else if(this.textContent === "Residential Counselor"){
+            article[4].style.display="block"
+            console.log(this.textContent)
+        }
+    })
 }
 
-function openPsych(){
-    document.querySelector("#modal2").style.display="block";
-}
-
-function openRehab(){
-    document.querySelector("#modal3").style.display="block";
-}
-
-function openClinical(){
-    document.querySelector("#modal4").style.display="block";
-}
-
-function openCounselor(){
-    document.querySelector("#modal5").style.display="block";
-}
-
-function openAddict(){
-    document.querySelector("#modal6").style.display="block";
-}
-
-function closeMedical(){
-    document.querySelector("#modal1").style.display="none";
-}
-
-function closePsych(){
-    document.querySelector("#modal2").style.display="none";
-}
-
-function closeRehab(){
-    document.querySelector("#modal3").style.display="none";
-}
-
-function closeClinical(){
-    document.querySelector("#modal4").style.display="none";
-}
-
-function closeCounselor(){
-    document.querySelector("#modal5").style.display="none";
-}
-
-function closeAddict(){
-    document.querySelector("#modal6").style.display="none";
+for (i = 0; i < closeModal.length; i++) {
+    closeModal[i].addEventListener("click", function(){
+        article[0].style.display="none";
+        article[1].style.display="none";
+        article[2].style.display="none";
+        article[3].style.display="none";
+        article[4].style.display="none";
+    })
 }

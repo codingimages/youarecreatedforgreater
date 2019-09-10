@@ -99,8 +99,8 @@
   <section class="container">
     <div class="text-center mb-3">
       <h1 class="heading-style">We have your answers!</h1>
+      <p>Please contact us for any questions or concerns.</p>
     </div>
-    <p>Contact us for any questions, do not hesistate on anything you can ask us, we are here to help and is about you!</p>
   </section>
 
   <div class="container">
@@ -190,10 +190,12 @@
           </h5>
           <a href="tel:4433155007">443-315-5007</a>
           <br>
-          <a href="mailto:lthompson@createrforgreater.com">lthompson@createrforgreater.com</a>
+          <a href="mailto:info@createdforgreater.net">info@createdforgreater.net</a>
           <br>
-          <a target="_blank" href=https://goo.gl/maps/ZXYvSjCkvzQNtZ4g9>5411 Old Frederick Rd. <br> Baltimore, MD,
-            21229</a>
+          <a href="mailto:cnorville@createdforgreater.net">cnorville@createdforgreater.net</a>
+          <br>
+          <a target="_blank" href=https://goo.gl/maps/ZXYvSjCkvzQNtZ4g9>5411 Old Frederick Rd. Suite 8<br> Baltimore, MD,
+              21229</a>
           <br>
           <br>
         </div>

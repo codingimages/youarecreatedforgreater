@@ -131,32 +131,46 @@ require_once 'partials/func.php';
                         </div>
                         <form action="partials/process.php" method="post">
                             <div class="form-group row">
-                                <label for="" class="col-sm-2 col-form-label">Full Name</label>
-                                <div class="col-sm-10">
+                                <label for="" class="col-sm-12 col-lg-2 col-form-label">Full Name</label>
+                                <div class="col-sm-12 col-lg-10">
                                     <input type="text" name="name" class="form-control" id="" placeholder="Full name"
                                         required>
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <label for="" class="col-sm-2 col-form-label">Email</label>
-                                <div class="col-sm-10">
+                                <label for="" class="col-sm-12 col-lg-2 col-form-label">Email</label>
+                                <div class="col-sm-12 col-lg-10">
                                     <input type="email" name="email" class="form-control" id="" placeholder="Email"
                                         required>
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <label for="" class="col-sm-2 col-form-label">Date (Press to select)</label>
-                                <div class="col-sm-10">
-                                    <input type="date" name="date" id="date" onchange="loadTimes()" class="form-control"
-                                        required placeholder="Elija una fecha">
+                                <label for="" class="col-sm-12 col-lg-2 col-form-label">Date of birth</label>
+                                <div class="col-sm-12 col-lg-10">
+                                    <input type="text" name="dob" class="form-control" id="" placeholder="Type date of birth">
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <label for="" class="col-sm-2 col-form-label">Hour</label>
-                                <div class="col-sm-10">
+                                <label for="" class="col-sm-12 col-lg-2 col-form-label">Medical Assistance Number</label>
+                                <div class="col-sm-12 col-lg-10">
+                                    <input type="text" name="mid" class="form-control" id="" placeholder="Medical Assistance Number">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="" class="col-sm-12 col-lg-2 col-form-label">Appointment Date (Press to select)</label>
+                                <div class="col-sm-12 col-lg-10">
+                                    <input type="date" name="date" id="date" onchange="loadTimes()" class="form-control"
+                                        required placeholder="Select a date">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="" class="col-sm-12 col-lg-2 col-form-label">Hour</label>
+                                <div class="col-sm-12 col-lg-10">
                                     <select name="time" id="time" class="form-control" required>
                                         <option selected>First select a date</option>
                                     </select>
@@ -164,8 +178,8 @@ require_once 'partials/func.php';
                             </div>
 
                             <div class="form-group row">
-                                <label for="" class="col-sm-2 col-form-label">Location</label>
-                                <div class="col-sm-10 mt-2">
+                                <label for="" class="col-sm-12 col-lg-2 col-form-label">Location</label>
+                                <div class="col-sm-12 col-lg-10 mt-2">
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" name="purpose[]" type="checkbox"
                                             id="inlineCheckbox1" value="Home">
@@ -185,8 +199,8 @@ require_once 'partials/func.php';
                             </div>
 
                             <div class="form-group row">
-                                <label for="" class="col-sm-2 col-form-label">More details (Optional)</label>
-                                <div class="col-sm-10">
+                                <label for="" class="col-sm-12 col-lg-2 col-form-label">More details (Optional)</label>
+                                <div class="col-sm-12 col-lg-10">
                                     <textarea name="description" class="form-control"
                                         placeholder="Write here..."></textarea>
                                 </div>
